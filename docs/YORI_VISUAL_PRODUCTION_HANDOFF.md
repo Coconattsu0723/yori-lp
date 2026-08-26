@@ -541,8 +541,8 @@ Styling Checkは単なる遊びではありません。
 - PANTS
 - SKIRT
 
-全18パターンの写真を作るのではなく、
-複数回答を **6スタイル程度** にマッピングします。
+正式素材は`SCENE × MOOD × BASE`の全18パターンを用意します。
+18画像をResult UIへ反映するマッピングとロジックの更新は別工程です。
 
 ## Result UI
 
@@ -966,7 +966,7 @@ Hero画像の上にコピー文字を焼き込まない。
 - Light
 - Crop
 
-結果写真は6点程度を想定。
+結果写真はPANTS系9点・SKIRT系9点の全18パターンを正式採用。
 
 各画像が別撮影に見えないことを最優先。
 
@@ -1155,6 +1155,26 @@ assets/images/photos/simulation/simulation_dinner-soft-skirt.png
 11. Styling Simulation Variation 06 / DINNER × FRESH × PANTS
 assets/images/photos/simulation/simulation_dinner-fresh-pants.png
 
+Styling Simulation / PANTS追加6点（正式採用・格納済み）
+
+- WORK × SOFT × PANTS：assets/images/photos/simulation/simulation_work-soft-pants.png
+- WORK × FRESH × PANTS：assets/images/photos/simulation/simulation_work-fresh-pants.png
+- OFF × CLEAN × PANTS：assets/images/photos/simulation/simulation_off-clean-pants.png
+- OFF × SOFT × PANTS：assets/images/photos/simulation/simulation_off-soft-pants.png
+- DINNER × CLEAN × PANTS：assets/images/photos/simulation/simulation_dinner-clean-pants.png
+- DINNER × SOFT × PANTS：assets/images/photos/simulation/simulation_dinner-soft-pants.png
+
+Styling Simulation / SKIRT追加6点（正式採用・格納済み）
+
+- WORK × CLEAN × SKIRT：assets/images/photos/simulation/simulation_work-clean-skirt.png
+- WORK × FRESH × SKIRT：assets/images/photos/simulation/simulation_work-fresh-skirt.png
+- OFF × SOFT × SKIRT：assets/images/photos/simulation/simulation_off-soft-skirt.png
+- OFF × FRESH × SKIRT：assets/images/photos/simulation/simulation_off-fresh-skirt.png
+- DINNER × CLEAN × SKIRT：assets/images/photos/simulation/simulation_dinner-clean-skirt.png
+- DINNER × FRESH × SKIRT：assets/images/photos/simulation/simulation_dinner-fresh-skirt.png
+
+PANTS系9点・SKIRT系9点が揃い、Styling Simulationの正式画像18通りが完成している。Base Visualは別途格納済み。
+
 12. Styling Examples / CASE 01：Office
 assets/images/photos/styling-examples/styling-case_office.png
 
@@ -1174,7 +1194,7 @@ assets/images/photos/style-note/my-style-note_visual.png
 assets/images/photos/final-cta/final-cta_ready-to-go.png
 ```
 
-上記17点は**正式採用済み**。Styling SimulationはBase VisualとVariation 01〜06、Styling ExamplesはCASE 01〜03が揃った状態。
+上記に加え、Styling SimulationのPANTS追加6点・SKIRT追加6点も**正式採用済み**。Simulationは全18通りとBase Visual、Styling ExamplesはCASE 01〜03が揃った状態。
 
 次は、**Flow用アイコンなどの補助素材が必要か確認する段階**。
 

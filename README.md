@@ -5,9 +5,11 @@
 ## 現在の進行状況
 
 - 企画・サービス設定：完了
-- 正式画像制作：完了（17点）
+- 正式画像制作：32点・正式ロゴ／favicon／OGPを含む／Styling Simulationの正式画像18通り格納済み
+- 画像最適化：写真29点のWebP派生作成、HTML / Simulation参照切り替え完了（PNG原本は保持）
+- 公開前対応：正式favicon・OGP格納、Metadata設定済み（公開URL関連は未設定）
 - 実装前Markdown正本化：完了
-- HTML / CSS / JavaScript実装：未着手
+- HTML / CSS / JavaScript実装：着手（Header / Hero、正式ロゴ差し替え、Styling Simulation 18画像切り替え完了）
 
 ## 現在の内容
 
@@ -51,6 +53,30 @@
   - 正式採用済みのVariation 05 / DINNER × SOFT × SKIRT
 - `assets/images/photos/simulation/simulation_dinner-fresh-pants.png`
   - 正式採用済みのVariation 06 / DINNER × FRESH × PANTS
+- `assets/images/photos/simulation/simulation_work-soft-pants.png`
+  - 正式採用済みのPANTS追加 / WORK × SOFT × PANTS
+- `assets/images/photos/simulation/simulation_work-fresh-pants.png`
+  - 正式採用済みのPANTS追加 / WORK × FRESH × PANTS
+- `assets/images/photos/simulation/simulation_off-clean-pants.png`
+  - 正式採用済みのPANTS追加 / OFF × CLEAN × PANTS
+- `assets/images/photos/simulation/simulation_off-soft-pants.png`
+  - 正式採用済みのPANTS追加 / OFF × SOFT × PANTS
+- `assets/images/photos/simulation/simulation_dinner-clean-pants.png`
+  - 正式採用済みのPANTS追加 / DINNER × CLEAN × PANTS
+- `assets/images/photos/simulation/simulation_dinner-soft-pants.png`
+  - 正式採用済みのPANTS追加 / DINNER × SOFT × PANTS
+- `assets/images/photos/simulation/simulation_work-clean-skirt.png`
+  - 正式採用済みのSKIRT追加 / WORK × CLEAN × SKIRT
+- `assets/images/photos/simulation/simulation_work-fresh-skirt.png`
+  - 正式採用済みのSKIRT追加 / WORK × FRESH × SKIRT
+- `assets/images/photos/simulation/simulation_off-soft-skirt.png`
+  - 正式採用済みのSKIRT追加 / OFF × SOFT × SKIRT
+- `assets/images/photos/simulation/simulation_off-fresh-skirt.png`
+  - 正式採用済みのSKIRT追加 / OFF × FRESH × SKIRT
+- `assets/images/photos/simulation/simulation_dinner-clean-skirt.png`
+  - 正式採用済みのSKIRT追加 / DINNER × CLEAN × SKIRT
+- `assets/images/photos/simulation/simulation_dinner-fresh-skirt.png`
+  - 正式採用済みのSKIRT追加 / DINNER × FRESH × SKIRT
 - `assets/images/photos/styling-examples/styling-case_office.png`
   - 正式採用済みのStyling Examples / CASE 01：Office
 - `assets/images/photos/styling-examples/styling-case_weekend.png`
@@ -66,4 +92,4 @@
 - `assets/images/photos/drafts/hero_draft_with-text.png`
   - 初期Hero案（不採用 / 参考用）
 
-現在は「企画・正式素材制作完了 → 実装前Markdown正本化完了」の状態です。実装はまだ開始していません。
+Styling Simulation素材は、PANTS系9点・SKIRT系9点の正式画像18通りが格納済みです。Base Visualも別途格納済みで、18画像を選択内容に合わせて1対1で切り替えるロジックを実装済みです。

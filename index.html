@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yori | 自分で選べるようになるパーソナルスタイリング</title>
+    <meta
+      name="description"
+      content="yoriは、好み・仕事・暮らし・手持ち服を一緒に整理し、これから自分で服を選べる「服選びの軸」を見つける架空のパーソナルスタイリングサービスです。"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="assets/images/favicon/favicon_yori-48.png"
+    >
+    <meta property="og:type" content="website">
+    <meta
+      property="og:title"
+      content="yori | 自分で選べるようになるパーソナルスタイリング"
+    >
+    <meta
+      property="og:description"
+      content="yoriは、好み・仕事・暮らし・手持ち服を一緒に整理し、これから自分で服を選べる「服選びの軸」を見つける架空のパーソナルスタイリングサービスです。"
+    >
+    <meta property="og:image" content="assets/images/ogp/ogp_yori-main.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="yori PERSONAL STYLING">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta
+      name="twitter:title"
+      content="yori | 自分で選べるようになるパーソナルスタイリング"
+    >
+    <meta
+      name="twitter:description"
+      content="yoriは、好み・仕事・暮らし・手持ち服を一緒に整理し、これから自分で服を選べる「服選びの軸」を見つける架空のパーソナルスタイリングサービスです。"
+    >
+    <meta name="twitter:image" content="assets/images/ogp/ogp_yori-main.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Noto+Sans+JP:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js?v=20260826" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main-content">本文へ移動</a>
+
+    <header class="site-header">
+      <div class="l-container site-header__inner">
+        <a class="brand" href="#top">
+          <img
+            class="brand__image"
+            src="assets/images/logo/logo_yori-main.png"
+            width="2172"
+            height="724"
+            alt="yori PERSONAL STYLING"
+          >
+        </a>
+
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <span class="menu-button__label">メニューを開く</span>
+          <span class="menu-button__icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+
+        <nav
+          class="site-navigation"
+          id="primary-navigation"
+          aria-label="メインナビゲーション"
+          hidden
+        >
+          <ul class="site-navigation__list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#styling-check">Styling</a></li>
+            <li><a href="#stylist">Stylist</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <nav class="desktop-navigation" aria-label="PCメインナビゲーション">
+          <ul class="desktop-navigation__list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#styling-check">Styling</a></li>
+            <li><a href="#stylist">Stylist</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <a class="primary-cta site-header__cta" href="#reservation">
+          <span>初回体験を予約する</span>
+          <span class="primary-cta__arrow" aria-hidden="true"></span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="l-container hero__inner">
+          <div class="hero__intro">
+            <p class="hero__label">Personal Styling</p>
+            <h1 class="hero__title" id="hero-title">
+              <span>私に似合うを、</span>
+              <span>私が選べるように。</span>
+            </h1>
+          </div>
+
+          <figure class="hero__visual">
+            <img
+              src="assets/images/photos/hero/hero_main.webp"
+              width="1024"
+              height="1536"
+              alt="明るいスタジオのハンガーラック前で、服を見比べている女性"
+              fetchpriority="high"
+              decoding="async"
+            >
+          </figure>
+
+          <div class="hero__details">
+            <p class="hero__description">
+              <span>好みも、仕事も、暮らしも。</span>
+              <span>今のあなたに合う服選びを一緒に整理して、</span>
+              <span>これから自分で選べる「服選びの軸」を見つけます。</span>
+            </p>
+            <a class="primary-cta" href="#reservation">
+              <span>初回スタイリング体験を予約する</span>
+              <span class="primary-cta__arrow" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="problem" id="problem" aria-labelledby="problem-title">
+        <div class="l-container problem__inner">
+          <div class="problem__intro">
+            <p class="problem__label">Problem</p>
+            <h2 class="problem__title" id="problem-title">
+              <span>こんな服選びに、</span>
+              <span>なっていませんか？</span>
+            </h2>
+          </div>
+
+          <ul class="problem__list">
+            <li class="problem__item">
+              <span class="problem__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" focusable="false">
+                  <path d="M12 8.75V7.6a1.85 1.85 0 1 0-1.85-1.85"></path>
+                  <path d="m12 8.75-7.25 5.5v2h14.5v-2L12 8.75Z"></path>
+                </svg>
+              </span>
+              <p>服はあるのに、着たい服がない。</p>
+            </li>
+            <li class="problem__item">
+              <span class="problem__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" focusable="false">
+                  <path d="M4.75 6.25h7.5l7 7-6 6-8.5-8.5v-4.5Z"></path>
+                  <circle cx="8.5" cy="10" r="1.1"></circle>
+                </svg>
+              </span>
+              <p>買ったのに、結局あまり着ない服が増えている。</p>
+            </li>
+            <li class="problem__item">
+              <span class="problem__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" focusable="false">
+                  <rect x="5.25" y="3.75" width="10" height="16.5" rx="1.5"></rect>
+                  <path d="M8.25 7.25h4M8.25 10.25h4M9.25 17h2"></path>
+                  <path d="m18.25 6 .55 1.2L20 7.75l-1.2.55-.55 1.2-.55-1.2-1.2-.55 1.2-.55.55-1.2Z"></path>
+                </svg>
+              </span>
+              <p>SNSで素敵と思っても、自分に似合うか分からない。</p>
+            </li>
+            <li class="problem__item">
+              <span class="problem__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" focusable="false">
+                  <path d="M3.75 6.25h7v12h-7zM13.25 6.25h7v12h-7z"></path>
+                  <path d="M5.75 10h3M15.25 14.5h3M7.25 8.5v3M16.75 13v3"></path>
+                </svg>
+              </span>
+              <p>仕事の日も休日も、結局いつも似たような服になる。</p>
+            </li>
+            <li class="problem__item">
+              <span class="problem__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" focusable="false">
+                  <circle cx="12" cy="12" r="8.25"></circle>
+                  <path d="m14.75 8.25-1.7 4.8-4.8 1.7 1.7-4.8 4.8-1.7Z"></path>
+                </svg>
+              </span>
+              <p>診断を受けても、実際の服選びには活かしきれない。</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="insight" id="insight" aria-labelledby="insight-title">
+        <div class="l-container insight__inner">
+          <p class="insight__label">Insight</p>
+          <h2 class="insight__title" id="insight-title">
+            <span>足りないのは、</span>
+            <span>服ではないのかも</span>
+            <span>しれません。</span>
+          </h2>
+
+          <div class="insight__body">
+            <p>SNSや雑誌を見たり、骨格診断やパーソナルカラーを調べたり。</p>
+            <p>情報は増えているのに、「結局、私の場合はどう選べばいい？」と迷ってしまうことがあります。</p>
+            <p>必要なのは、新しい正解を増やすことではなく、好みや仕事、暮らしに合わせて自分なりの選び方を整理することかもしれません。</p>
+          </div>
+
+          <div
+            class="insight-map"
+            role="img"
+            aria-label="似合うだけで考えるのではなく、好き、仕事、暮らし、手持ち服を一緒に整理して服選びの軸をつくる図"
+          >
+            <p class="insight-map__lead">似合うだけでは、続かない</p>
+            <span class="insight-map__connector" aria-hidden="true"></span>
+            <p class="insight-map__core">服選びの軸</p>
+            <div class="insight-map__factors" aria-hidden="true">
+              <p><span>LIKE</span><small>好き</small></p>
+              <p><span>WORK</span><small>仕事</small></p>
+              <p><span>LIFE</span><small>暮らし</small></p>
+              <p><span>WARDROBE</span><small>手持ち服</small></p>
+            </div>
+          </div>
+
+          <p class="insight__key-message">
+            <span>服がないのではなく、</span>
+            <span>自分に合う服を選ぶ基準が</span>
+            <span>まだ整理できていない。</span>
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="styling-check"
+        id="styling-check"
+        aria-labelledby="styling-check-title"
+      >
+        <div class="l-container styling-check__inner">
+          <div class="styling-check__intro">
+            <p class="styling-check__label">Styling Check</p>
+            <h2 class="styling-check__title" id="styling-check-title">
+              <span>まずは、今の服選びを</span>
+              <span>少し整理してみましょう。</span>
+            </h2>
+            <p class="styling-check__description">
+              5つの質問に答えると、今のあなたがどこで服選びに迷いやすいかを簡単にチェックできます。
+            </p>
+          </div>
+
+          <noscript>
+            <div class="type-check__noscript">
+              <p>診断の操作にはJavaScriptが必要です。結果は次の4タイプから表示されます。</p>
+              <ul>
+                <li>情報を集めすぎタイプ</li>
+                <li>いつもの服に戻るタイプ</li>
+                <li>買ってから迷うタイプ</li>
+                <li>無難に整えすぎタイプ</li>
+              </ul>
+            </div>
+          </noscript>
+
+          <div class="type-check" id="type-check-app" hidden>
+            <div class="type-check__question-view" data-question-view>
+              <div class="type-check__progress">
+                <div class="type-check__progress-meta">
+                  <p data-progress-label>01 / 05</p>
+                  <p>5 Questions</p>
+                </div>
+                <div
+                  class="type-check__progress-track"
+                  role="progressbar"
+                  aria-label="診断の進行状況"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  aria-valuenow="20"
+                  aria-valuetext="1問目 / 全5問"
+                  data-progress
+                >
+                  <span class="type-check__progress-bar" data-progress-bar></span>
+                </div>
+              </div>
+
+              <h3 class="type-check__question" id="type-check-question" tabindex="-1"></h3>
+              <div
+                class="type-check__options"
+                role="group"
+                aria-labelledby="type-check-question"
+                data-options
+              ></div>
+            </div>
+
+            <div
+              class="type-check__result"
+              aria-live="polite"
+              aria-atomic="true"
+              data-result
+              hidden
+            >
+              <div class="type-check__result-panel">
+                <p class="type-check__result-label" data-result-type></p>
+                <h3 class="type-check__result-heading" tabindex="-1" data-result-heading></h3>
+                <p class="type-check__result-description" data-result-description></p>
+              </div>
+              <p class="type-check__result-note">
+                タイプに優劣はありません。今の服選びの迷い方を整理するための簡易チェックです。
+              </p>
+              <a
+                class="type-check__simulation-link"
+                href="#styling-simulation"
+              >
+                次は、シーンや気分によって<br>
+                スタイルがどう変わるか試してみる
+              </a>
+              <button class="type-check__retry" type="button" data-retry>
+                もう一度診断する
+              </button>
+            </div>
+          </div>
+
+          <section
+            class="styling-simulation"
+            id="styling-simulation"
+            aria-labelledby="styling-simulation-title"
+          >
+            <div class="styling-simulation__intro">
+              <p class="styling-simulation__label">Style Simulation</p>
+              <h3 class="styling-simulation__title" id="styling-simulation-title">
+                <span>条件を変えて、</span>
+                <span>提案の違いを試してみる。</span>
+              </h3>
+              <div class="styling-simulation__description">
+                <p>シーン、気分、普段選びたいボトムを選んでみてください。</p>
+                <p>同じ人でも、過ごし方や目指したい印象によってスタイリングの選択肢は変わります。</p>
+              </div>
+            </div>
+
+            <div class="styling-simulation__app" data-simulation-app>
+              <div class="styling-simulation__controls" aria-label="スタイリング条件">
+                <fieldset class="styling-simulation__group" data-simulation-group="scene">
+                  <legend class="styling-simulation__group-label">Scene</legend>
+                  <div class="styling-simulation__choices styling-simulation__choices--three">
+                    <button type="button" data-group="scene" data-value="work" aria-pressed="false" disabled>
+                      <span>Work</span><span class="styling-simulation__check" aria-hidden="true">✓</span>
+                    </button>
+                    <button class="is-active" type="button" data-group="scene" data-value="off" aria-pressed="true" disabled>
+                      <span>Off</span><span class="styling-simulation__check" aria-hidden="true">✓</span>
+                    </button>
+                    <button type="button" data-group="scene" data-value="dinner" aria-pressed="false" disabled>
+                      <span>Dinner</span><span class="styling-simulation__check" aria-hidden="true">✓</span>
+                    </button>
+                  </div>
+                </fieldset>
+
+                <fieldset class="styling-simulation__group" data-simulation-group="mood">
+                  <legend class="styling-simulation__group-label">Mood</legend>
+                  <div class="styling-simulation__choices styling-simulation__choices--three">
+                    <button type="button" data-group="mood" data-value="clean" aria-pressed="false" disabled>
+                      <span>Clean</span><span class="styling-simulation__check" aria-hidden="true">✓</span>
+                    </button>
+                    <button type="button" data-group="mood" data-value="soft" aria-pressed="false" disabled>
+                      <span>Soft</span><span class="styling-simulation__check" aria-hidden="true">✓</span>
+                    </button>
+                    <button class="is-active" type="button" data-group="mood" data-value="fresh" aria-pressed="true" disabled>
+                      <span>Fresh</span><span class="styling-simulation__check" aria-hidden="true">✓</span>
+                    </button>
+                  </div>
+                </fieldset>
+
+                <fieldset class="styling-simulation__group" data-simulation-group="base">
+                  <legend class="styling-simulation__group-label">Base</legend>
+                  <div class="styling-simulation__choices styling-simulation__choices--two">
+                    <button type="button" data-group="base" data-value="pants" aria-pressed="false" disabled>
+                      <span>Pants</span><span class="styling-simulation__check" aria-hidden="true">✓</span>
+                    </button>
+                    <button class="is-active" type="button" data-group="base" data-value="skirt" aria-pressed="true" disabled>
+                      <span>Skirt</span><span class="styling-simulation__check" aria-hidden="true">✓</span>
+                    </button>
+                  </div>
+                </fieldset>
+              </div>
+
+              <noscript>
+                <p class="styling-simulation__noscript">
+                  選ぶ条件によって提案が変わるコンテンツです。操作するにはJavaScriptを有効にしてください。
+                </p>
+              </noscript>
+
+              <div
+                class="styling-simulation__result"
+                aria-live="polite"
+                aria-atomic="true"
+                data-simulation-result
+              >
+                <figure class="styling-simulation__visual">
+                  <img
+                    src="assets/images/photos/simulation/simulation_off-fresh-skirt.webp"
+                    alt="OFF / FRESH / SKIRT のスタイリング例"
+                    width="1122"
+                    height="1402"
+                    loading="lazy"
+                    data-simulation-image
+                  >
+                </figure>
+
+                <p class="styling-simulation__result-name" data-simulation-name>OFF × FRESH × SKIRT</p>
+
+                <div class="styling-simulation__result-copy">
+                  <div class="styling-simulation__note-block">
+                    <p class="styling-simulation__copy-label">Style Note</p>
+                    <p data-simulation-note>
+                      休日らしい自然な力の抜け方を残しながら、軽やかな色で新鮮さを加えたスカートスタイル。
+                    </p>
+                  </div>
+                  <div class="styling-simulation__reason-block">
+                    <p class="styling-simulation__copy-label">Why This Style</p>
+                    <p data-simulation-reason>
+                      休日の過ごしやすさを大切にしながら、明るい色とスカートのラインで軽やかな印象を作っています。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <p class="styling-check__note">
+            ※このチェックは、服選びの傾向を整理するための簡易コンテンツです。
+          </p>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="l-container about__inner">
+          <header class="about__intro">
+            <p class="about__label">About yori</p>
+            <h2 class="about__title" id="about-title">
+              <span>似合う服を</span>
+              <span>教えるだけではなく、</span>
+              <span>自分で選べるように</span>
+              <span>なるために。</span>
+            </h2>
+          </header>
+
+          <figure class="about__visual">
+            <img
+              src="assets/images/photos/about/about_styling-session.webp"
+              width="1200"
+              height="900"
+              alt="スタイリストと利用者が服を見ながらスタイリングについて相談している様子"
+              loading="lazy"
+              decoding="async"
+            >
+          </figure>
+
+          <div class="about__body">
+            <p>
+              yoriでは、診断結果やスタイリストの感覚だけで服を決めることはありません。
+            </p>
+            <p class="about__principles">
+              <span>「好き」と思えること。</span>
+              <span>仕事や休日に無理なく着られること。</span>
+              <span>手持ちの服とつながること。</span>
+            </p>
+            <p>
+              好みも、似合うも、暮らしも一緒に整理しながら、これから自分で服を選ぶための「服選びの軸」を見つけていきます。
+            </p>
+          </div>
+
+          <ul class="about__elements" aria-label="yoriが一緒に整理する5つの要素">
+            <li class="about__element">
+              <p class="about__element-label">Like</p>
+              <p class="about__element-description">好き・着たいと思えること</p>
+            </li>
+            <li class="about__element">
+              <p class="about__element-label">Fit</p>
+              <p class="about__element-description">自分に自然になじむこと</p>
+            </li>
+            <li class="about__element">
+              <p class="about__element-label">Work</p>
+              <p class="about__element-description">仕事で無理なく使えること</p>
+            </li>
+            <li class="about__element">
+              <p class="about__element-label">Life</p>
+              <p class="about__element-description">休日や日常に取り入れやすいこと</p>
+            </li>
+            <li class="about__element">
+              <p class="about__element-label">Wardrobe</p>
+              <p class="about__element-description">手持ちの服とつながること</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="benefits" id="benefits" aria-labelledby="benefits-title">
+        <div class="l-container benefits__inner">
+          <header class="benefits__intro">
+            <p class="benefits__label">What You Get</p>
+            <h2 class="benefits__title" id="benefits-title">
+              <span>服を増やすより、</span>
+              <span>選べる自分を</span>
+              <span>増やしていく。</span>
+            </h2>
+
+            <div class="benefits__lead">
+              <p>
+                <span>yoriで整理するのは、</span>
+                <span>その日のコーディネートだけではありません。</span>
+              </p>
+              <p>
+                <span>朝の服選びも、次の買い物も、</span>
+                <span>少しずつ自分で判断しやすくなることを</span>
+                <span>目指します。</span>
+              </p>
+            </div>
+          </header>
+
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <h3>朝、迷う時間が減る</h3>
+              <p>「何を着よう」から始めるのではなく、自分の基準から選びやすくなります。</p>
+            </li>
+            <li class="benefits__item">
+              <h3>買う前に考えられる</h3>
+              <p>素敵だから買う、だけではなく、手持ち服や暮らしに合うかを考えて選べるようになります。</p>
+            </li>
+            <li class="benefits__item">
+              <h3>手持ち服を活かしやすくなる</h3>
+              <p>新しい服を増やす前に、今ある服の組み合わせや役割を見直せるようになります。</p>
+            </li>
+            <li class="benefits__item">
+              <h3>「好き」を選びやすくなる</h3>
+              <p>似合うかどうかだけではなく、自分が心地よく着られるかも判断の基準にできます。</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        class="styling-examples"
+        id="styling-examples"
+        aria-labelledby="styling-examples-title"
+      >
+        <div class="l-container styling-examples__inner">
+          <header class="styling-examples__intro">
+            <p class="styling-examples__label">Styling Examples</p>
+            <h2 class="styling-examples__title" id="styling-examples-title">
+              <span>正解を増やすのではなく、</span>
+              <span>選び方を変えていく。</span>
+            </h2>
+            <div class="styling-examples__lead">
+              <p>
+                <span>仕事の日も、休日も、</span>
+                <span>少し特別な予定の日も。</span>
+              </p>
+              <p>
+                <span>yoriでは、その人の暮らしや</span>
+                <span>手持ち服に合わせて、</span>
+                <span>無理なく続けられるスタイルを</span>
+                <span>一緒に考えます。</span>
+              </p>
+            </div>
+          </header>
+
+          <div class="styling-examples__cases">
+            <article class="styling-case" aria-labelledby="styling-case-office">
+              <h3
+                class="styling-case__title"
+                id="styling-case-office"
+                aria-label="CASE 01 / OFFICE：仕事向けスタイリング事例"
+              >Case 01 / Office</h3>
+              <figure class="styling-case__visual">
+                <img
+                  src="assets/images/photos/styling-examples/styling-case_office.webp"
+                  width="1023"
+                  height="1537"
+                  alt="白いブラウスに淡いジャケットとグレージュのパンツを合わせた仕事向けスタイリング"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </figure>
+              <div class="styling-case__content">
+                <p class="styling-case__profile">
+                  <span class="styling-case__profile-label">User / 利用者</span>
+                  <span>31歳 / 営業職</span>
+                </p>
+                <dl class="styling-case__details">
+                  <div class="styling-case__detail">
+                    <dt>Problem / 悩み</dt>
+                    <dd>仕事服がいつも同じになり、ジャケットとパンツの組み合わせばかりになってしまう。</dd>
+                  </div>
+                  <div class="styling-case__detail">
+                    <dt>Direction / 提案</dt>
+                    <dd>手持ちのベーシックなパンツを活かしながら、トップスと羽織りの選び方を少し変える。</dd>
+                  </div>
+                  <div class="styling-case__detail">
+                    <dt>Why / 理由</dt>
+                    <dd>新しい服を増やさなくても、トップスの色や素材を変えるだけで、信頼感を残しながらやわらかな印象を作れます。</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="styling-case" aria-labelledby="styling-case-weekend">
+              <h3
+                class="styling-case__title"
+                id="styling-case-weekend"
+                aria-label="CASE 02 / WEEKEND：休日向けスタイリング事例"
+              >Case 02 / Weekend</h3>
+              <figure class="styling-case__visual">
+                <img
+                  src="assets/images/photos/styling-examples/styling-case_weekend.webp"
+                  width="1122"
+                  height="1402"
+                  alt="淡いブルーのシャツとアイボリーのパンツを合わせた休日向けスタイリング"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </figure>
+              <div class="styling-case__content">
+                <p class="styling-case__profile">
+                  <span class="styling-case__profile-label">User / 利用者</span>
+                  <span>30歳 / 事務職</span>
+                </p>
+                <dl class="styling-case__details">
+                  <div class="styling-case__detail">
+                    <dt>Problem / 悩み</dt>
+                    <dd>休日は楽な服を選びたいけれど、結局いつも同じ色・同じパンツに戻ってしまう。</dd>
+                  </div>
+                  <div class="styling-case__detail">
+                    <dt>Direction / 提案</dt>
+                    <dd>いつものベーシックを残しながら、低彩度の色をひとつだけ取り入れる。</dd>
+                  </div>
+                  <div class="styling-case__detail">
+                    <dt>Why / 理由</dt>
+                    <dd>全身を変えなくても、色をひとつ足すだけで、頑張りすぎず少し新鮮な印象になります。</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="styling-case" aria-labelledby="styling-case-dinner">
+              <h3
+                class="styling-case__title"
+                id="styling-case-dinner"
+                aria-label="CASE 03 / DINNER：食事向けスタイリング事例"
+              >Case 03 / Dinner</h3>
+              <figure class="styling-case__visual">
+                <img
+                  src="assets/images/photos/styling-examples/styling-case_dinner.webp"
+                  width="1086"
+                  height="1448"
+                  alt="落ち着いたボルドーのトップスとチャコールのパンツを合わせた食事向けスタイリング"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </figure>
+              <div class="styling-case__content">
+                <p class="styling-case__profile">
+                  <span class="styling-case__profile-label">User / 利用者</span>
+                  <span>32歳 / 企画職</span>
+                </p>
+                <dl class="styling-case__details">
+                  <div class="styling-case__detail">
+                    <dt>Problem / 悩み</dt>
+                    <dd>友人との食事など、普段着とドレスアップの間の服装に迷いやすい。</dd>
+                  </div>
+                  <div class="styling-case__detail">
+                    <dt>Direction / 提案</dt>
+                    <dd>普段にも使えるアイテムを軸に、素材や色、小物だけ少し整える。</dd>
+                  </div>
+                  <div class="styling-case__detail">
+                    <dt>Why / 理由</dt>
+                    <dd>特別な予定のためだけに服を増やさなくても、いつもの自分を残したまま少し上品な印象へ調整できます。</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="first-styling"
+        id="first-styling"
+        aria-labelledby="first-styling-title"
+      >
+        <div class="l-container first-styling__inner">
+          <header class="first-styling__intro">
+            <p class="first-styling__label">First Styling</p>
+            <h2 class="first-styling__title" id="first-styling-title">一緒に整理する90分。</h2>
+            <p class="first-styling__lead">
+              <span>初回スタイリング体験では、</span>
+              <span>好みや仕事、休日の過ごし方、</span>
+              <span>手持ち服などを一緒に見ながら、</span>
+              <span>これから自分で服を選ぶための軸を</span>
+              <span>整理していきます。</span>
+            </p>
+          </header>
+
+          <figure class="first-styling__visual">
+            <img
+              src="assets/images/photos/first-experience/first-styling_experience.webp"
+              width="1200"
+              height="900"
+              alt="利用者とスタイリストがテーブルで資料や生地サンプルを見ながら服選びについて相談している様子"
+              loading="lazy"
+              decoding="async"
+            >
+          </figure>
+
+          <dl class="first-styling__facts" aria-label="初回スタイリング体験の基本情報">
+            <div class="first-styling__fact">
+              <dt>Time / 時間</dt>
+              <dd>90 min</dd>
+            </div>
+            <div class="first-styling__fact">
+              <dt>Price / 料金</dt>
+              <dd>¥6,600 <small>（税込）</small></dd>
+            </div>
+            <div class="first-styling__fact first-styling__fact--format">
+              <dt>Format / 形式</dt>
+              <dd>対面 / オンライン</dd>
+            </div>
+          </dl>
+
+          <ol class="first-styling__steps">
+            <li class="first-styling__step">
+              <p class="first-styling__step-label">Step 01</p>
+              <h3>事前スタイルチェック</h3>
+              <p>服の悩みや好きなスタイル、仕事・休日の服装について事前に教えてください。</p>
+            </li>
+            <li class="first-styling__step">
+              <p class="first-styling__step-label">Step 02</p>
+              <h3>ヒアリング</h3>
+              <p>「何が似合うか」だけではなく、どんな服なら普段の生活で無理なく着られるかを一緒に整理します。</p>
+            </li>
+            <li class="first-styling__step">
+              <p class="first-styling__step-label">Step 03</p>
+              <h3>スタイリング</h3>
+              <p>手持ち服やサンプルアイテムを見ながら、色・シルエット・組み合わせを試します。</p>
+            </li>
+            <li class="first-styling__step">
+              <p class="first-styling__step-label">Step 04</p>
+              <h3>服選びの軸を整理</h3>
+              <p>今後の買い物や朝の服選びで使える、自分なりの判断基準を整理します。</p>
+            </li>
+            <li class="first-styling__step">
+              <p class="first-styling__step-label">Step 05</p>
+              <h3>MY STYLE NOTE</h3>
+              <p>体験後にも見返せる、あなたのための服選びメモをお渡しします。</p>
+            </li>
+          </ol>
+
+          <a class="primary-cta first-styling__cta" href="#reservation">
+            <span>初回スタイリング体験を予約する</span>
+            <span class="primary-cta__arrow" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="stylist" id="stylist" aria-labelledby="stylist-title">
+        <div class="l-container stylist__inner">
+          <header class="stylist__intro">
+            <p class="stylist__label">Stylist</p>
+            <h2 class="stylist__title" id="stylist-title">
+              <span>「似合う」だけでなく、</span>
+              <span>「好き」も大切に。</span>
+            </h2>
+          </header>
+
+          <figure class="stylist__portrait">
+            <img
+              src="assets/images/photos/stylist/stylist_maho-portrait.webp"
+              width="1122"
+              height="1402"
+              alt="yoriのパーソナルスタイリスト佐倉真帆"
+              loading="lazy"
+              decoding="async"
+            >
+          </figure>
+
+          <div class="stylist__profile">
+            <header class="stylist__identity">
+              <h3 class="stylist__name">佐倉 真帆</h3>
+              <p class="stylist__name-en" lang="en">Maho Sakura</p>
+              <p class="stylist__role" lang="en">Personal Stylist</p>
+            </header>
+
+            <div class="stylist__bio">
+              <p>
+                アパレル販売・スタイリング経験を経て、<br>
+                現在はyoriで1対1のパーソナルスタイリングを担当。
+              </p>
+              <p>
+                「似合うかどうか」だけでなく、<br>
+                その人自身が好きと思えること、<br>
+                仕事や休日の中で無理なく着られることを大切にしています。
+              </p>
+              <p>
+                答えを押しつけるのではなく、<br>
+                一緒に整理しながら、<br>
+                その人自身が服を選びやすくなることを目指しています。
+              </p>
+            </div>
+
+            <p class="stylist__message">
+              <span>服を選ぶ時間が、</span>
+              <span>少しだけ気楽になるように。</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="voice" id="voice" aria-labelledby="voice-title">
+        <div class="l-container voice__inner">
+          <header class="voice__intro">
+            <p class="voice__label">Voice</p>
+            <h2 class="voice__title" id="voice-title">
+              <span>変わったのは、</span>
+              <span>服よりも選び方でした。</span>
+            </h2>
+            <p class="voice__lead">
+              <span>yoriを利用した方から届いたのは、</span>
+              <span>「何を着ればいいか」ではなく、</span>
+              <span>「自分で選べるようになった」</span>
+              <span>という声でした。</span>
+            </p>
+          </header>
+
+          <div class="voice__list">
+            <article class="voice__item" aria-label="31歳、営業職の利用者の声">
+              <p class="voice__meta">
+                <span class="voice__number">Voice 01</span>
+                <span class="voice__user">31歳 / 営業職</span>
+              </p>
+              <blockquote class="voice__quote">
+                <span class="voice__quote-mark" aria-hidden="true">“</span>
+                <p>朝、服を選ぶ時間が短くなりました。</p>
+              </blockquote>
+              <p class="voice__body">
+                以前は何度も着替えてから出かけることが多かったのですが、
+                自分が選びやすい形や色が分かってから、
+                手持ち服の中でも迷いにくくなりました。
+              </p>
+            </article>
+
+            <article class="voice__item" aria-label="30歳、事務職の利用者の声">
+              <p class="voice__meta">
+                <span class="voice__number">Voice 02</span>
+                <span class="voice__user">30歳 / 事務職</span>
+              </p>
+              <blockquote class="voice__quote">
+                <span class="voice__quote-mark" aria-hidden="true">“</span>
+                <p>買う前に、一度考えられるようになりました。</p>
+              </blockquote>
+              <p class="voice__body">
+                以前は「素敵」と思ったらそのまま買っていましたが、
+                今は手持ち服と合わせられるか、
+                実際に着る場面があるかを考えてから選べています。
+              </p>
+            </article>
+
+            <article class="voice__item" aria-label="32歳、企画職の利用者の声">
+              <p class="voice__meta">
+                <span class="voice__number">Voice 03</span>
+                <span class="voice__user">32歳 / 企画職</span>
+              </p>
+              <blockquote class="voice__quote">
+                <span class="voice__quote-mark" aria-hidden="true">“</span>
+                <p>自分の「好き」が少し分かるようになりました。</p>
+              </blockquote>
+              <p class="voice__body">
+                似合うかどうかばかり気にしていましたが、
+                好きと思えることも大切にしていいと分かって、
+                服を選ぶのが前より少し楽しくなりました。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="price" id="price" aria-labelledby="price-title">
+        <div class="l-container price__inner">
+          <header class="price__intro">
+            <p class="price__label">Price</p>
+            <h2 class="price__title" id="price-title">
+              <span>まずは、一度。</span>
+              <span>今の服選びを整理する</span>
+              <span>ところから。</span>
+            </h2>
+            <div class="price__lead">
+              <p>
+                <span>初めての方には、</span>
+                <span>90分のFIRST STYLINGをご用意しています。</span>
+              </p>
+              <p>
+                <span>相談だけで終わるのではなく、</span>
+                <span>これから自分で選ぶための</span>
+                <span>「服選びの軸」まで一緒に整理します。</span>
+              </p>
+            </div>
+          </header>
+
+          <article class="price__primary" aria-labelledby="first-styling-plan">
+            <header class="price__plan-header">
+              <p class="price__badge">初めての方へ</p>
+              <p class="price__plan-name-en">First Styling</p>
+              <h3 id="first-styling-plan">初回スタイリング体験</h3>
+              <div class="price__summary">
+                <p class="price__duration">90<span>min</span></p>
+                <p class="price__amount">¥6,600<small>（税込）</small></p>
+              </div>
+            </header>
+
+            <div class="price__included">
+              <p class="price__sub-label">Included</p>
+              <ul>
+                <li>事前スタイルチェック</li>
+                <li>ヒアリング</li>
+                <li>スタイリング</li>
+                <li>服選びの軸整理</li>
+                <li>MY STYLE NOTE</li>
+              </ul>
+            </div>
+
+            <ul class="price__facts" aria-label="初回スタイリング体験の利用条件">
+              <li>完全予約制</li>
+              <li>1対1</li>
+              <li>対面 / オンライン</li>
+              <li>商品購入不要</li>
+            </ul>
+
+            <a class="primary-cta price__cta" href="#reservation">
+              <span>初回スタイリング体験を予約する</span>
+              <span class="primary-cta__arrow" aria-hidden="true"></span>
+            </a>
+          </article>
+
+          <div class="price__other-plans">
+            <p class="price__other-label">Other Menu</p>
+
+            <article class="price__other-plan" aria-labelledby="personal-styling-plan">
+              <p class="price__plan-name-en">Personal Styling</p>
+              <h3 id="personal-styling-plan">パーソナルスタイリング</h3>
+              <div class="price__other-summary">
+                <p class="price__duration">120<span>min</span></p>
+                <p class="price__other-amount">¥13,200<small>（税込）</small></p>
+              </div>
+              <p class="price__description">より詳しく手持ち服や着回しを整理したい方へ。</p>
+            </article>
+
+            <article class="price__other-plan" aria-labelledby="shopping-support-plan">
+              <p class="price__plan-name-en">Shopping Support</p>
+              <h3 id="shopping-support-plan">ショッピング同行</h3>
+              <div class="price__other-summary">
+                <p class="price__duration">120<span>min</span></p>
+                <p class="price__other-amount">¥16,500<small>（税込）</small></p>
+              </div>
+              <p class="price__description">買い足すアイテムを、実際のショップで一緒に選びたい方へ。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="flow" id="flow" aria-labelledby="flow-title">
+        <div class="l-container flow__inner">
+          <header class="flow__intro">
+            <p class="flow__label">Flow</p>
+            <h2 class="flow__title" id="flow-title">
+              <span>予約から当日まで、</span>
+              <span>迷わず進められる</span>
+              <span>ように。</span>
+            </h2>
+            <p class="flow__lead">
+              <span>初めての方でも安心して利用できるよう、</span>
+              <span>予約後の流れをシンプルにご案内します。</span>
+            </p>
+          </header>
+
+          <ol class="flow__steps">
+            <li class="flow__step">
+              <p class="flow__step-label">Step 01</p>
+              <h3>予約</h3>
+              <p>
+                LP内の予約フォームから、
+                希望日時・対面またはオンラインを選んでお申し込みください。
+              </p>
+            </li>
+            <li class="flow__step">
+              <p class="flow__step-label">Step 02</p>
+              <h3>事前スタイルチェック</h3>
+              <p>
+                服の悩みや好きなスタイル、
+                普段よく着る服などを事前に教えていただきます。
+              </p>
+            </li>
+            <li class="flow__step">
+              <p class="flow__step-label">Step 03</p>
+              <h3>スタイリング当日</h3>
+              <p>
+                ヒアリングとスタイリングを通して、
+                今の服選びを一緒に整理します。
+              </p>
+            </li>
+            <li class="flow__step">
+              <p class="flow__step-label">Step 04</p>
+              <h3>MY STYLE NOTE</h3>
+              <p>
+                体験後にも見返せる、
+                あなたの服選びのポイントをまとめてお渡しします。
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="faq" id="faq" aria-labelledby="faq-title" data-faq>
+        <div class="l-container faq__inner">
+          <header class="faq__intro">
+            <p class="faq__label">FAQ</p>
+            <h2 class="faq__title" id="faq-title">
+              <span>気になることを、</span>
+              <span>先に整理して</span>
+              <span>おきましょう。</span>
+            </h2>
+          </header>
+
+          <div class="faq__list">
+            <article class="faq__item">
+              <h3 class="faq__question">
+                <button
+                  class="faq__trigger"
+                  type="button"
+                  id="faq-question-01"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-01"
+                >
+                  <span>ファッションに詳しくなくても利用できますか？</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="faq__answer"
+                id="faq-answer-01"
+                role="region"
+                aria-labelledby="faq-question-01"
+                hidden
+              >
+                <div class="faq__answer-inner">
+                  <p>
+                    はい。むしろ「何を選べばいいか分からない」と感じている方に利用していただきたいサービスです。
+                  </p>
+                  <p>専門用語を前提にせず、一緒に整理しながら進めます。</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="faq__item">
+              <h3 class="faq__question">
+                <button
+                  class="faq__trigger"
+                  type="button"
+                  id="faq-question-02"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-02"
+                >
+                  <span>高価な服を購入する必要はありますか？</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="faq__answer"
+                id="faq-answer-02"
+                role="region"
+                aria-labelledby="faq-question-02"
+                hidden
+              >
+                <div class="faq__answer-inner">
+                  <p>必要ありません。</p>
+                  <p>
+                    yoriでは商品の販売を行っておらず、特定ブランドの購入をお願いすることもありません。
+                  </p>
+                  <p>予算や普段利用するブランドに合わせて提案します。</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="faq__item">
+              <h3 class="faq__question">
+                <button
+                  class="faq__trigger"
+                  type="button"
+                  id="faq-question-03"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-03"
+                >
+                  <span>1回だけの利用でも大丈夫ですか？</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="faq__answer"
+                id="faq-answer-03"
+                role="region"
+                aria-labelledby="faq-question-03"
+                hidden
+              >
+                <div class="faq__answer-inner">
+                  <p>はい。初回スタイリング体験のみの利用でも問題ありません。</p>
+                  <p>
+                    継続利用が必要な場合のみ、PERSONAL STYLINGやSHOPPING SUPPORTをご案内します。
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="faq__item">
+              <h3 class="faq__question">
+                <button
+                  class="faq__trigger"
+                  type="button"
+                  id="faq-question-04"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-04"
+                >
+                  <span>手持ちの服が少なくても大丈夫ですか？</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="faq__answer"
+                id="faq-answer-04"
+                role="region"
+                aria-labelledby="faq-question-04"
+                hidden
+              >
+                <div class="faq__answer-inner">
+                  <p>大丈夫です。</p>
+                  <p>
+                    手持ち服の量ではなく、今の暮らしや好みを整理することを大切にしています。
+                  </p>
+                  <p>相談したい服がある場合は、対面なら数点持参していただけます。</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="faq__item">
+              <h3 class="faq__question">
+                <button
+                  class="faq__trigger"
+                  type="button"
+                  id="faq-question-05"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-05"
+                >
+                  <span>オンラインでも受けられますか？</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="faq__answer"
+                id="faq-answer-05"
+                role="region"
+                aria-labelledby="faq-question-05"
+                hidden
+              >
+                <div class="faq__answer-inner">
+                  <p>はい。オンラインでもご利用いただけます。</p>
+                  <p>
+                    手持ち服は事前に写真で共有していただき、画面越しにヒアリングと提案を行います。
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="faq__item">
+              <h3 class="faq__question">
+                <button
+                  class="faq__trigger"
+                  type="button"
+                  id="faq-question-06"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-06"
+                >
+                  <span>当日は何を準備すればよいですか？</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="faq__answer"
+                id="faq-answer-06"
+                role="region"
+                aria-labelledby="faq-question-06"
+                hidden
+              >
+                <div class="faq__answer-inner">
+                  <p>特別な準備は必要ありません。</p>
+                  <p>
+                    予約後にお送りする事前スタイルチェックへ回答いただくだけで大丈夫です。
+                  </p>
+                  <p>
+                    相談したい手持ち服がある場合のみ、対面では持参、オンラインでは写真をご用意ください。
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="faq__item">
+              <h3 class="faq__question">
+                <button
+                  class="faq__trigger"
+                  type="button"
+                  id="faq-question-07"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-07"
+                >
+                  <span>予約の変更やキャンセルはできますか？</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div
+                class="faq__answer"
+                id="faq-answer-07"
+                role="region"
+                aria-labelledby="faq-question-07"
+                hidden
+              >
+                <div class="faq__answer-inner">
+                  <p>前日までの変更は可能です。</p>
+                  <p>当日キャンセルについては料金が発生する場合があります。</p>
+                  <p>詳しい条件は予約確定時にご案内します。</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-cta-title">
+        <div class="l-container final-cta__inner">
+          <figure class="final-cta__visual">
+            <img
+              src="assets/images/photos/final-cta/final-cta_ready-to-go.webp"
+              width="1122"
+              height="1402"
+              alt="コーディネートを整え、バッグを持って出かける準備をする女性"
+              loading="lazy"
+              decoding="async"
+            >
+          </figure>
+
+          <div class="final-cta__content">
+            <p class="final-cta__label">Ready to Choose</p>
+            <h2 class="final-cta__title" id="final-cta-title">
+              <span>これからの服選びを、</span>
+              <span>一度整理して</span>
+              <span>みませんか。</span>
+            </h2>
+
+            <div class="final-cta__copy">
+              <p>
+                似合う服を教えてもらうだけではなく、<br>
+                これから自分で選べるようになるために。
+              </p>
+              <p>
+                まずは初回スタイリング体験から、<br>
+                今の服選びを一緒に整理してみましょう。
+              </p>
+            </div>
+
+            <p class="final-cta__details">90min / ¥6,600（税込）・対面 / オンライン</p>
+
+            <a class="primary-cta final-cta__button" href="#reservation">
+              <span>初回スタイリング体験を予約する</span>
+              <span class="primary-cta__arrow" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="reservation" id="reservation" aria-labelledby="reservation-title">
+        <div class="l-container reservation__inner">
+          <header class="reservation__intro">
+            <p class="reservation__label">Reservation</p>
+            <h2 class="reservation__title" id="reservation-title">
+              <span>初回スタイリング体験を</span>
+              <span>予約する</span>
+            </h2>
+            <p class="reservation__lead">
+              ご希望の日時と利用方法、<br>
+              今のお悩みを教えてください。
+            </p>
+          </header>
+
+          <form class="reservation__form" id="reservation-form" novalidate>
+            <div class="reservation__field">
+              <label class="reservation__field-label" for="reservation-name">
+                <span>お名前</span>
+                <span class="reservation__requirement">必須</span>
+              </label>
+              <input
+                id="reservation-name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+                aria-invalid="false"
+                aria-describedby="reservation-name-error"
+              >
+              <p class="reservation__error" id="reservation-name-error" hidden>
+                お名前を入力してください。
+              </p>
+            </div>
+
+            <div class="reservation__field">
+              <label class="reservation__field-label" for="reservation-email">
+                <span>メールアドレス</span>
+                <span class="reservation__requirement">必須</span>
+              </label>
+              <input
+                id="reservation-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+                aria-invalid="false"
+                aria-describedby="reservation-email-error"
+              >
+              <p class="reservation__error" id="reservation-email-error" hidden>
+                メールアドレスを正しい形式で入力してください。
+              </p>
+            </div>
+
+            <div class="reservation__field">
+              <label class="reservation__field-label" for="reservation-date">
+                <span>希望日</span>
+                <span class="reservation__requirement">必須</span>
+              </label>
+              <input
+                id="reservation-date"
+                name="date"
+                type="date"
+                required
+                aria-invalid="false"
+                aria-describedby="reservation-date-error"
+              >
+              <p class="reservation__error" id="reservation-date-error" hidden>
+                本日以降の希望日を選択してください。
+              </p>
+            </div>
+
+            <div class="reservation__field">
+              <label class="reservation__field-label" for="reservation-time">
+                <span>希望時間帯</span>
+                <span class="reservation__requirement">必須</span>
+              </label>
+              <select
+                id="reservation-time"
+                name="time"
+                required
+                aria-invalid="false"
+                aria-describedby="reservation-time-error"
+              >
+                <option value="">選択してください</option>
+                <option value="morning">午前</option>
+                <option value="afternoon">午後</option>
+                <option value="evening">夕方</option>
+              </select>
+              <p class="reservation__error" id="reservation-time-error" hidden>
+                希望時間帯を選択してください。
+              </p>
+            </div>
+
+            <fieldset
+              class="reservation__field reservation__fieldset"
+              aria-invalid="false"
+              aria-describedby="reservation-method-error"
+            >
+              <legend class="reservation__field-label">
+                <span>利用方法</span>
+                <span class="reservation__requirement">必須</span>
+              </legend>
+              <div class="reservation__options">
+                <label class="reservation__option">
+                  <input
+                    name="method"
+                    type="radio"
+                    value="in-person"
+                    required
+                    aria-invalid="false"
+                    aria-describedby="reservation-method-error"
+                  >
+                  <span>対面</span>
+                </label>
+                <label class="reservation__option">
+                  <input
+                    name="method"
+                    type="radio"
+                    value="online"
+                    required
+                    aria-invalid="false"
+                    aria-describedby="reservation-method-error"
+                  >
+                  <span>オンライン</span>
+                </label>
+              </div>
+              <p class="reservation__error" id="reservation-method-error" hidden>
+                利用方法を選択してください。
+              </p>
+            </fieldset>
+
+            <div class="reservation__field">
+              <label class="reservation__field-label" for="reservation-message">
+                <span>服について今困っていること</span>
+                <span class="reservation__requirement reservation__requirement--optional">任意</span>
+              </label>
+              <textarea
+                id="reservation-message"
+                name="message"
+                rows="5"
+                placeholder="例：仕事服がいつも同じになってしまう、買った服をうまく着回せない など"
+              ></textarea>
+            </div>
+
+            <div class="reservation__agreement">
+              <details class="reservation__policy">
+                <summary>プライバシーポリシー（ポートフォリオ用）</summary>
+                <p id="reservation-policy-note">
+                  入力内容は外部へ送信されず、保存も行われません。
+                </p>
+              </details>
+
+              <label class="reservation__agreement-label" for="reservation-agreement">
+                <input
+                  id="reservation-agreement"
+                  name="agreement"
+                  type="checkbox"
+                  required
+                  aria-invalid="false"
+                  aria-describedby="reservation-policy-note reservation-agreement-error"
+                >
+                <span>
+                  内容を確認し、プライバシーポリシーに同意します。
+                  <span class="reservation__requirement">必須</span>
+                </span>
+              </label>
+              <p class="reservation__error" id="reservation-agreement-error" hidden>
+                内容への同意が必要です。
+              </p>
+            </div>
+
+            <button
+              class="primary-cta reservation__submit"
+              type="button"
+              data-reservation-submit
+            >
+              <span>予約内容を確認する</span>
+              <span class="primary-cta__arrow" aria-hidden="true"></span>
+            </button>
+
+            <p class="reservation__portfolio-note">
+              ※このフォームはポートフォリオ用のため、実際の予約送信は行われません。
+            </p>
+          </form>
+
+          <div
+            class="reservation__complete"
+            id="reservation-complete"
+            role="status"
+            tabindex="-1"
+            hidden
+          >
+            <p class="reservation__complete-label">Reservation Complete</p>
+            <h3>ご入力ありがとうございます。</h3>
+            <p>
+              このサイトは自主制作のため、実際の予約送信は行われません。<br>
+              フォーム操作はここまでで完了です。
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="l-container site-footer__inner">
+        <a class="site-footer__brand" href="#top">
+          <img
+            class="site-footer__logo"
+            src="assets/images/logo/logo_yori-main.png"
+            width="2172"
+            height="724"
+            alt="yori PERSONAL STYLING"
+          >
+        </a>
+
+        <p class="site-footer__message">私に似合うを、私が選べるように。</p>
+
+        <nav class="site-footer__navigation" aria-label="フッターナビゲーション">
+          <ul class="site-footer__navigation-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#styling-check">Styling</a></li>
+            <li><a href="#stylist">Stylist</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+          </ul>
+        </nav>
+
+        <p class="site-footer__portfolio-note">
+          このサイトはポートフォリオ用に制作した架空のサービスサイトです。
+        </p>
+        <p class="site-footer__copyright">© 2026 yori PERSONAL STYLING</p>
+      </div>
+    </footer>
+  </body>
+</html>

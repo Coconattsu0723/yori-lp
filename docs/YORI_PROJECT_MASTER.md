@@ -364,8 +364,8 @@ Footer
 - PANTS
 - SKIRT
 
-全18パターンを作るのではなく、
-複数回答を**約6スタイル**へマッピング。
+正式素材は`SCENE × MOOD × BASE`の全18パターンを用意する。
+18画像は正式ファイル名規則に基づき、Result UIへ1対1で切り替えて表示する。
 
 Resultには：
 
@@ -747,7 +747,7 @@ assets/images/photos/studio/studio_main.png
 
 ### Styling Simulation
 
-以下のBase VisualとVariation 01〜06は、すべて**正式採用**。
+以下のBase Visual、Variation 01〜06、PANTS追加6点、SKIRT追加6点は、すべて**正式採用**。
 
 - Styling Simulation Base Visual：**正式採用**
 - Variation 01 / WORK × CLEAN × PANTS：**正式採用**
@@ -756,6 +756,18 @@ assets/images/photos/studio/studio_main.png
 - Variation 04 / OFF × CLEAN × SKIRT：**正式採用**
 - Variation 05 / DINNER × SOFT × SKIRT：**正式採用**
 - Variation 06 / DINNER × FRESH × PANTS：**正式採用**
+- PANTS追加 / WORK × SOFT × PANTS：**正式採用**
+- PANTS追加 / WORK × FRESH × PANTS：**正式採用**
+- PANTS追加 / OFF × CLEAN × PANTS：**正式採用**
+- PANTS追加 / OFF × SOFT × PANTS：**正式採用**
+- PANTS追加 / DINNER × CLEAN × PANTS：**正式採用**
+- PANTS追加 / DINNER × SOFT × PANTS：**正式採用**
+- SKIRT追加 / WORK × CLEAN × SKIRT：**正式採用**
+- SKIRT追加 / WORK × FRESH × SKIRT：**正式採用**
+- SKIRT追加 / OFF × SOFT × SKIRT：**正式採用**
+- SKIRT追加 / OFF × FRESH × SKIRT：**正式採用**
+- SKIRT追加 / DINNER × CLEAN × SKIRT：**正式採用**
+- SKIRT追加 / DINNER × FRESH × SKIRT：**正式採用**
 
 ファイル：
 
@@ -767,7 +779,26 @@ assets/images/photos/simulation/simulation_off-fresh-pants.png
 assets/images/photos/simulation/simulation_off-clean-skirt.png
 assets/images/photos/simulation/simulation_dinner-soft-skirt.png
 assets/images/photos/simulation/simulation_dinner-fresh-pants.png
+assets/images/photos/simulation/simulation_work-soft-pants.png
+assets/images/photos/simulation/simulation_work-fresh-pants.png
+assets/images/photos/simulation/simulation_off-clean-pants.png
+assets/images/photos/simulation/simulation_off-soft-pants.png
+assets/images/photos/simulation/simulation_dinner-clean-pants.png
+assets/images/photos/simulation/simulation_dinner-soft-pants.png
+assets/images/photos/simulation/simulation_work-clean-skirt.png
+assets/images/photos/simulation/simulation_work-fresh-skirt.png
+assets/images/photos/simulation/simulation_off-soft-skirt.png
+assets/images/photos/simulation/simulation_off-fresh-skirt.png
+assets/images/photos/simulation/simulation_dinner-clean-skirt.png
+assets/images/photos/simulation/simulation_dinner-fresh-skirt.png
 ```
+
+現在の素材状況：
+
+- PANTS系：WORK / OFF / DINNER × CLEAN / SOFT / FRESHの必要9パターンが格納済み。
+- SKIRT系：WORK / OFF / DINNER × CLEAN / SOFT / FRESHの必要9パターンが格納済み。
+- Styling SimulationはPANTS系9点・SKIRT系9点の正式画像18通りが揃っている。Base Visualは別途格納済み。
+- 18画像をSimulation UIへ反映する1対1の画像切り替えロジックを実装済み。
 
 ### Styling Examples
 
@@ -881,6 +912,8 @@ assets/images/photos/drafts/hero_draft_with-text.png
 - Styling Simulation Variation 04制作・確認（正式採用）
 - Styling Simulation Variation 05制作・確認（正式採用）
 - Styling Simulation Variation 06制作・確認（正式採用）
+- Styling Simulation PANTS追加6点制作・確認・格納（正式採用）
+- Styling Simulation SKIRT追加6点制作・確認・格納（正式採用）
 - Styling Examples / CASE 01：Office制作・確認（正式採用）
 - Styling Examples / CASE 02：Weekend制作・確認（正式採用）
 - Styling Examples / CASE 03：Dinner制作・確認（正式採用）
