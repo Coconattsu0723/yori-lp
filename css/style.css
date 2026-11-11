@@ -295,8 +295,10 @@ ul {
 .flow__title,
 .faq__title,
 .final-cta__title,
-.reservation__title {
-  font-family: var(--font-serif);
+.reservation__title,
+.styling-simulation__title {
+  font-family: "Cormorant Garamond", "Noto Serif JP", "Times New Roman", serif;
+  font-weight: 500;
 }
 
 .hero__title {
