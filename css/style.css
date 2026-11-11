@@ -3618,7 +3618,8 @@ ul {
 .flow__title,
 .faq__title,
 .final-cta__title,
-.reservation__title {
+.reservation__title,
+.styling-simulation__title {
   font-size: clamp(1.625rem, 5vw, 2.25rem);
 }
 
