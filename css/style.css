@@ -281,9 +281,26 @@ ul {
   text-transform: uppercase;
 }
 
+.hero__title,
+.problem__title,
+.insight__title,
+.styling-check__title,
+.about__title,
+.benefits__title,
+.styling-examples__title,
+.first-styling__title,
+.stylist__title,
+.voice__title,
+.price__title,
+.flow__title,
+.faq__title,
+.final-cta__title,
+.reservation__title {
+  font-family: var(--font-serif);
+}
+
 .hero__title {
   margin: 0;
-  font-family: var(--font-serif);
   font-size: clamp(2.25rem, 10vw, 2.75rem);
   font-weight: 500;
   letter-spacing: -0.04em;
@@ -416,7 +433,6 @@ ul {
 
 .insight__title {
   margin: 0;
-  font-family: var(--font-serif);
   font-size: 1.875rem;
   font-weight: 500;
   letter-spacing: -0.02em;
