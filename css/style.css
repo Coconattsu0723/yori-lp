@@ -3604,3 +3604,36 @@ ul {
     animation-iteration-count: 1 !important;
   }
 }
+
+.problem__title,
+.insight__title,
+.styling-check__title,
+.about__title,
+.benefits__title,
+.styling-examples__title,
+.first-styling__title,
+.stylist__title,
+.voice__title,
+.price__title,
+.flow__title,
+.faq__title,
+.final-cta__title,
+.reservation__title {
+  font-size: clamp(1.625rem, 5vw, 2.25rem);
+}
+
+.hero__description,
+.insight__body,
+.styling-check__description,
+.styling-simulation__description,
+.about__body,
+.benefits__lead,
+.styling-examples__lead,
+.first-styling__lead,
+.voice__lead,
+.price__lead,
+.flow__lead,
+.final-cta__copy,
+.reservation__lead {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+}
