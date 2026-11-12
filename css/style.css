@@ -2665,8 +2665,6 @@ ul {
 @media (min-width: 64rem) {
   :root {
     --section-space: 7.5rem;
-  }
-  :root {
     --container-max: 60rem;
     --container-padding: 2rem;
     --header-height: 5.25rem;
@@ -2948,10 +2946,6 @@ ul {
     margin-top: 0.625rem;
   }
 
-  .benefits,
-  .styling-examples,
-
-
   .benefits__intro,
   .styling-examples__intro,
   .first-styling__intro,
@@ -3006,13 +3000,6 @@ ul {
     grid-template-columns: minmax(0, 0.45fr) minmax(0, 0.55fr);
     column-gap: 4rem;
   }
-
-  .voice,
-  .price,
-  .flow,
-  .faq,
-  .final-cta,
-
 
   .voice__list {
     display: grid;
@@ -3202,8 +3189,6 @@ ul {
 @media (min-width: 85.375rem) {
   :root {
     --section-space: 9rem;
-  }
-  :root {
     --container-max: 75rem;
   }
 
@@ -3318,10 +3303,6 @@ ul {
     margin-inline: auto;
   }
 
-  .benefits,
-  .styling-examples,
-
-
   .benefits__list {
     margin-top: 4rem;
   }
@@ -3354,13 +3335,6 @@ ul {
     margin-inline: auto;
   }
 
-  .voice,
-  .price,
-  .flow,
-  .faq,
-  .final-cta,
-
-
   .voice__list,
   .flow__steps {
     margin-top: 4rem;
@@ -3392,6 +3366,30 @@ ul {
 
   .site-footer__inner {
     max-width: 72rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  #main-content > section > .l-container {
+    max-width: none;
+  }
+
+  #main-content :is(
+    .type-check,
+    .styling-simulation__app,
+    .about__elements,
+    .benefits__list,
+    .styling-examples__cases,
+    .voice__list,
+    .price__primary,
+    .price__other-plans,
+    .flow__steps,
+    .faq__list,
+    .reservation__form,
+    .reservation__complete
+  ) {
+    width: 100%;
+    max-width: none;
   }
 }
 
