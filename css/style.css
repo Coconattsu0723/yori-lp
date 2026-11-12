@@ -441,8 +441,7 @@ ul {
   line-height: 1.5;
 }
 
-.insight__title span,
-.insight__key-message span {
+.insight__title span {
   display: block;
 }
 
@@ -462,98 +461,28 @@ ul {
 }
 
 .insight-map {
-  margin-top: 2.5rem;
+  margin: 2.5rem 0 0;
   padding-block: 1.75rem;
   border-block: 1px solid var(--color-line);
   text-align: center;
 }
 
-.insight-map p {
-  margin: 0;
-}
-
-.insight-map__lead {
-  color: var(--color-text-sub);
-  font-size: 0.8125rem;
-  letter-spacing: 0.04em;
-}
-
-.insight-map__connector {
-  position: relative;
-  display: block;
-  width: 1px;
-  height: 1.75rem;
-  margin: 0.75rem auto;
-  background: var(--color-line);
-}
-
-.insight-map__connector::after {
-  position: absolute;
-  right: -0.1875rem;
-  bottom: 0;
-  width: 0.375rem;
-  height: 0.375rem;
-  transform: rotate(45deg);
-  border-right: 1px solid var(--color-accent);
-  border-bottom: 1px solid var(--color-accent);
-  content: "";
-}
-
 .insight-map__core {
-  width: 8.5rem;
-  margin-inline: auto !important;
-  padding: 0.625rem 0.75rem;
-  border: 1px solid var(--color-accent);
-  color: var(--color-text);
-  font-size: 0.9375rem;
+  font-size: 1.125rem;
   font-weight: 500;
-  letter-spacing: 0.06em;
 }
 
 .insight-map__factors {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-top: 1.5rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1rem;
 }
 
-.insight-map__factors p {
-  display: grid;
-  min-height: 3.75rem;
-  align-content: center;
-  gap: 0.125rem;
-  border-top: 1px solid var(--color-line);
-}
-
-.insight-map__factors p:nth-child(even) {
-  border-left: 1px solid var(--color-line);
-}
-
-.insight-map__factors p:nth-child(n + 3) {
-  border-bottom: 1px solid var(--color-line);
-}
-
-.insight-map__factors span {
-  color: var(--color-accent);
-  font-family: var(--font-serif);
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.14em;
-}
-
-.insight-map__factors small {
-  color: var(--color-text-sub);
-  font-size: 0.6875rem;
-  line-height: 1.5;
-}
-
-.insight__key-message {
-  margin: 2.5rem 0 0;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--color-line);
-  font-size: 1.125rem;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  line-height: 1.9;
+.insight-map__factors li + li {
+  border-inline-start: 1px solid var(--color-line);
 }
 
 /* ========================================
@@ -2957,14 +2886,6 @@ ul {
     align-self: center;
     margin-top: 0;
     padding-block: 2.5rem;
-  }
-
-  .insight__key-message {
-    grid-column: 1 / -1;
-    margin-top: 4rem;
-    padding-block: 1.75rem;
-    border-top: 1px solid var(--color-line);
-    font-size: 1.375rem;
   }
 
   .styling-check {
