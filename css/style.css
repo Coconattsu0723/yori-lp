@@ -3,6 +3,7 @@
 ======================================== */
 
 :root {
+  --section-space: 5rem;
   --color-bg: #f7f5f0;
   --color-surface: #fcfbf8;
   --color-text: #2e302d;
@@ -257,10 +258,6 @@ ul {
    Hero
 ======================================== */
 
-.hero {
-  padding-block: 2.5rem 5rem;
-}
-
 .hero__inner {
   display: grid;
 }
@@ -341,13 +338,13 @@ ul {
   object-position: center 44%;
 }
 
+#main-content > section {
+  padding-block: var(--section-space);
+}
+
 /* ========================================
    Problem
 ======================================== */
-
-.problem {
-  padding-block: 0;
-}
 
 .problem__intro {
   display: grid;
@@ -419,7 +416,6 @@ ul {
 ======================================== */
 
 .insight {
-  padding-block: 5rem 0;
   background: var(--color-surface);
 }
 
@@ -488,10 +484,6 @@ ul {
 /* ========================================
    Styling Check / Type Check
 ======================================== */
-
-.styling-check {
-  padding-block: 5rem;
-}
 
 .styling-check__label {
   margin: 0 0 0.75rem;
@@ -752,8 +744,8 @@ ul {
 
 .styling-simulation {
   scroll-margin-top: calc(var(--header-height) + 1rem);
-  margin-top: 5rem;
-  padding-top: 4rem;
+  margin-top: var(--section-space);
+  padding-top: var(--section-space);
   border-top: 1px solid var(--color-line);
 }
 
@@ -945,10 +937,6 @@ ul {
    About yori
 ======================================== */
 
-.about {
-  padding-block: 0 5rem;
-}
-
 .about__label,
 .about__element-label {
   font-family: var(--font-serif);
@@ -1035,10 +1023,6 @@ ul {
    What You Get
 ======================================== */
 
-.benefits {
-  padding-block: 0 5rem;
-}
-
 .benefits__label {
   margin: 0 0 0.75rem;
   color: var(--color-accent);
@@ -1121,10 +1105,6 @@ ul {
 /* ========================================
    Styling Examples
 ======================================== */
-
-.styling-examples {
-  padding-block: 0 5rem;
-}
 
 .styling-examples__label,
 .styling-case__title,
@@ -1252,10 +1232,6 @@ ul {
 /* ========================================
    First Styling Experience
 ======================================== */
-
-.first-styling {
-  padding-block: 0 5rem;
-}
 
 .first-styling__label,
 .first-styling__fact dt,
@@ -1404,7 +1380,6 @@ ul {
 ======================================== */
 
 .stylist {
-  padding-block: 5rem;
   background: var(--color-surface);
 }
 
@@ -1500,7 +1475,6 @@ ul {
 ======================================== */
 
 .voice {
-  padding-block: 5rem;
   background: var(--color-bg);
 }
 
@@ -1600,7 +1574,6 @@ ul {
 ======================================== */
 
 .price {
-  padding-block: 5rem;
   background: var(--color-surface);
 }
 
@@ -1819,7 +1792,6 @@ ul {
 ======================================== */
 
 .flow {
-  padding-block: 5rem;
   background: var(--color-bg);
 }
 
@@ -1917,7 +1889,6 @@ ul {
 ======================================== */
 
 .faq {
-  padding-block: 5rem;
   background: var(--color-surface);
 }
 
@@ -2024,7 +1995,6 @@ ul {
 ======================================== */
 
 .final-cta {
-  padding-block: 5rem;
   background: var(--color-accent-light);
 }
 
@@ -2098,7 +2068,6 @@ ul {
 ======================================== */
 
 .reservation {
-  padding-block: 5rem;
   background: var(--color-bg);
 }
 
@@ -2438,10 +2407,6 @@ ul {
     --container-padding: 2rem;
   }
 
-  .hero {
-    padding-bottom: 4.5rem;
-  }
-
   .hero__title {
     max-width: 37.5rem;
   }
@@ -2699,6 +2664,9 @@ ul {
 
 @media (min-width: 64rem) {
   :root {
+    --section-space: 7.5rem;
+  }
+  :root {
     --container-max: 60rem;
     --container-padding: 2rem;
     --header-height: 5.25rem;
@@ -2765,10 +2733,6 @@ ul {
     white-space: nowrap;
   }
 
-  .hero {
-    padding-block: 5.5rem 7.5rem;
-  }
-
   .hero__inner {
     grid-template-columns: minmax(0, 0.46fr) minmax(0, 0.54fr);
     grid-template-rows: auto auto 1fr;
@@ -2817,10 +2781,6 @@ ul {
     max-width: 22rem;
   }
 
-  .problem {
-    padding-bottom: 7.5rem;
-  }
-
   .problem__inner {
     display: grid;
     grid-template-columns: minmax(0, 0.38fr) minmax(0, 0.62fr);
@@ -2854,10 +2814,6 @@ ul {
     padding-block: 1.5rem;
   }
 
-  .insight {
-    padding-top: 7.5rem;
-  }
-
   .insight__inner {
     display: grid;
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
@@ -2888,10 +2844,6 @@ ul {
     padding-block: 2.5rem;
   }
 
-  .styling-check {
-    padding-block: 7.5rem;
-  }
-
   .styling-check__intro {
     max-width: 42rem;
   }
@@ -2909,11 +2861,6 @@ ul {
 
   .type-check__result {
     max-width: 42rem;
-  }
-
-  .styling-simulation {
-    margin-top: 7.5rem;
-    padding-top: 6rem;
   }
 
   .styling-simulation__intro {
@@ -2969,10 +2916,6 @@ ul {
     margin-top: 1rem;
   }
 
-  .about {
-    padding-bottom: 7.5rem;
-  }
-
   .about__inner {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 4rem;
@@ -3007,9 +2950,7 @@ ul {
 
   .benefits,
   .styling-examples,
-  .first-styling {
-    padding-bottom: 7.5rem;
-  }
+
 
   .benefits__intro,
   .styling-examples__intro,
@@ -3061,10 +3002,6 @@ ul {
     column-gap: 4rem;
   }
 
-  .stylist {
-    padding-block: 7.5rem;
-  }
-
   .stylist__inner {
     grid-template-columns: minmax(0, 0.45fr) minmax(0, 0.55fr);
     column-gap: 4rem;
@@ -3075,9 +3012,7 @@ ul {
   .flow,
   .faq,
   .final-cta,
-  .reservation {
-    padding-block: 7.5rem;
-  }
+
 
   .voice__list {
     display: grid;
@@ -3266,15 +3201,14 @@ ul {
 
 @media (min-width: 85.375rem) {
   :root {
+    --section-space: 9rem;
+  }
+  :root {
     --container-max: 75rem;
   }
 
   .site-header__inner {
     max-width: 64rem;
-  }
-
-  .hero {
-    padding-block: 7rem 8.5rem;
   }
 
   .hero__inner {
@@ -3295,10 +3229,6 @@ ul {
     margin-top: 2.5rem;
   }
 
-  .problem {
-    padding-bottom: 9rem;
-  }
-
   .problem__inner,
   .insight__inner {
     max-width: 74rem;
@@ -3317,10 +3247,6 @@ ul {
 
   .problem__item p {
     max-width: 38rem;
-  }
-
-  .insight {
-    padding-top: 9rem;
   }
 
   .insight__inner {
@@ -3353,21 +3279,12 @@ ul {
     font-size: 2.5rem;
   }
 
-  .styling-check {
-    padding-block: 9rem;
-  }
-
   .type-check {
     max-width: 54rem;
   }
 
   .type-check__result {
     max-width: 42rem;
-  }
-
-  .styling-simulation {
-    margin-top: 9rem;
-    padding-top: 7rem;
   }
 
   .styling-simulation__app {
@@ -3380,10 +3297,6 @@ ul {
   .styling-simulation__result-name,
   .styling-simulation__result-copy {
     max-width: 27rem;
-  }
-
-  .about {
-    padding-bottom: 9rem;
   }
 
   .about__inner {
@@ -3407,9 +3320,7 @@ ul {
 
   .benefits,
   .styling-examples,
-  .first-styling {
-    padding-bottom: 9rem;
-  }
+
 
   .benefits__list {
     margin-top: 4rem;
@@ -3436,10 +3347,6 @@ ul {
     max-width: 33rem;
   }
 
-  .stylist {
-    padding-block: 9rem;
-  }
-
   .stylist__inner {
     max-width: 68rem;
     grid-template-columns: minmax(0, 0.45fr) minmax(0, 0.55fr);
@@ -3452,9 +3359,7 @@ ul {
   .flow,
   .faq,
   .final-cta,
-  .reservation {
-    padding-block: 9rem;
-  }
+
 
   .voice__list,
   .flow__steps {
